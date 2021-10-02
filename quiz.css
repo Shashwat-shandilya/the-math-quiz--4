@@ -1,0 +1,56 @@
+html{
+    background: lightseagreen;
+}
+
+CENTER{
+    background: lightseagreen;
+}
+
+body{
+    background: lightseagreen;
+}
+
+input{
+    width: 700px;
+    height: 70px;
+    border-radius: 50px;
+    border: 5px solid red;
+    box-shadow: 5px 3px 20px red;
+}
+
+#output{
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #41fc03;
+    padding: 10px;
+    float: none;
+    text-align: left;
+    width: 750px;
+    box-shadow: 5px 3px 20px #41fc03;
+}
+
+#btnLogin{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: 5px 3px 20px green;
+}
+
+#btnEquation{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: 5px 3px 20px green;
+}
+
+span{
+    font-size: 30px;
+    margin-left: 10px;
+}
+#operation{
+    width: 150px;
+    height: 50px;
+    background: #41fc03;
+    box-shadow: 5px 3px 20px #41fc03;
+    border-radius: 100px;
+}

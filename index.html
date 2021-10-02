@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz Login</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="quiz.css">
+
+<script src="login.js"></script>
+</head>
+<body>
+	<center>
+        <h1 style="color: lightgreen; font-family: 'ZCOOL XiaoWei', serif;">The Math Quiz</h1>
+        <img src="username-icon.png" alt="">
+		<br><br><br><br>
+		<div id="username">
+			<input type="text" id="player1Name" placeholder="Player 1 username">
+			<br><br><br><br><br>
+			<input type="text" id="player2Name" placeholder="Player 2 username">
+		</div><br><br>
+		<button class="btn btn-success" id="btnLogin" onclick="addUser()">Login</button>
+	</center>
+</body>
+</html>
